@@ -1,0 +1,46 @@
+--------   TABELAS  --------
+
+Para criar uma tabela no cabeçalho, a tag utiliada pra isso é o <THEAD>
+
+Para criar uma tabela no Corpo do site, a tag utiliada pra isso é o <TBODY>
+
+Para criar uma tabela no Roda pé do site, a tag utiliada pra isso é o <TFOOT>
+
+
+
+A tag <caption> dentro de uma tag <table> faz com que fique um titulo principal
+em cima da tabela, sendo assim podendo personalizar ele com uma tabela também.
+
+
+
+Para fazer o esquema de cores de tabela modo zebra, é necessario o uso do comando
+:nth-child(2n) que basicamente é atribuido na parte de <style>, o numero é referente
+a quantas linhas vao ser puladas pra aplicar a cor novamente na proxima linha.
+
+
+Para fixar um cabeçalho de uma tabela no top, é necessario o uso dos seguintes comandos
+na linha de estilo do cabeçalho:
+                      |
+ 	                 --- position: stick; (grudar)
+				   top: 1px; (distanciamento do topo)
+				   background-color: fff; (cor de fundo)
+
+é o suficiente para fixar um cabeçalho no topo e assim fazendo ele rolar junto com a tela.
+
+
+------ ESTILOS UTÉIS NA TABELA -----
+
+border-collapse: collapse; ( faz com que a tabela fique com as linhas coladas )
+
+position: sticky; ( serve pra grudar/prender algum texto na tabela
+                    acompanhado de top/right pra ser especifico)
+
+
+--------   MESCLAGEM DE TABELAS ---------
+
+para fazer a mesclagem de uma tabela é necessario utilizar o comando: 
+         |
+	    --- colspan="numero desejado de slots a ser mesclado" dentro da tag <td>
+
+( detalhe: "colspan" é referente a completar na mesma coluna ou seja horizontal
+ e "rowspan" é referente a completar a coluna na versal vertical )
