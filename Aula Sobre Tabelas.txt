@@ -44,3 +44,8 @@ para fazer a mesclagem de uma tabela é necessario utilizar o comando:
 
 ( detalhe: "colspan" é referente a completar na mesma coluna ou seja horizontal
  e "rowspan" é referente a completar a coluna na versal vertical )
+
+
+
+a estilização: overflow: auto ( faz com que o crie uma rolagem dentro da propria area de tabela
+obviamente usando uma div.
